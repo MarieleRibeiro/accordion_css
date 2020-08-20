@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  outline: none;
+}
+
+#conteiner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(315deg, #f4f7ff 0%, #f7f8fb 100%);
+  width: 100%;
+  min-height: 100vh;
+}
+#conteudo {
+  background: white;
+  border-radius: 30px;
+  width: 945px;
+  padding: 87px;
+}
+#accordion h1 {
+  height: 37px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30.6px;
+  line-height: 37px;
+  font-family: "Inter", sans-serif;
+}
+#accordion p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 15px;
+}
+.conteudo1 {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.2px;
+  line-height: 20px;
+  color: #242e4c;
+  padding: 20px;
+}
+.conteudo1 button {
+  border-radius: 50%;
+  border: 1px solid;
+  width: 30.6px;
+  height: 30.6px;
+  font-weight: bold;
+  font-size: 18px;
+  background: #10182f;
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+h2 {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.2px;
+  line-height: 20px;
+  color: #10182f;
+  margin-left: 10px;
+}
+
+.conteudo2 {
+  display: flex;
+  padding: 20px;
+}
+.conteudo2 button {
+  border-radius: 50%;
+  border: 1px solid;
+  width: 30.6px;
+  height: 30.6px;
+  font-weight: bold;
+  font-size: 18px;
+  background: #10182f;
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.conteudo3 {
+  margin-left: 72px;
+}
+.conteudo3 h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16.2px;
+  line-height: 22px;
+  margin-bottom: 8.5px;
+  margin-top: 40px;
+  color: #545d7a;
+}
+.conteudo3 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14.4px;
+  line-height: 22px;
+  color: #545d7a;
+}
+.conteudo3 button {
+  background: #f7f8fc;
+  border-radius: 24.75px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14.4px;
+  line-height: 18px;
+  margin-top: 26.5px;
+  margin-bottom: 26.1px;
+  width: 142.2px;
+  height: 38.7px;
+  border: none;
+  font-family: "Mulish", sans-serif;
+}
+hr {
+  border: 0.9px solid #dae1f5;
+}
